@@ -1,0 +1,219 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* Common Css */
+    
+    .button_btn a {
+        background: #354C38;
+        display: inline-block;
+        padding: 20px 50px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+    
+    .button_btn a:hover {
+        background: #BA4B3A;
+    }
+    
+    p.content {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    /* Header Section  Style Start Here */
+    
+    .flexbox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .header_section {
+        margin-top: 50px;
+    }
+    
+    .border_left {
+        position: relative;
+    }
+    
+    .border_left h1::after {
+        position: absolute;
+        content: "";
+        background: #354C38;
+        top: 15px;
+        left: 0;
+        height: 170px;
+        width: 5px;
+    }
+    
+    .header_section_item {
+        flex-basis: 35%;
+        margin: 0 auto;
+    }
+    
+    .header_section_item h1,
+    .header_section_item h2 {
+        font-size: 70px;
+        margin: 10px 0;
+        color: #D4C767;
+        padding-left: 20px;
+    }
+    
+    .header_section_item h2 {
+        color: #BA4B3A;
+    }
+    /* .header_section_item p,
+    .my_mission_item p,
+    .develop_item p {
+        font-size: 25px;
+        line-height: 1.5;
+    } */
+    
+    .header_section_item img {
+        width: 400px;
+    }
+    /* Header Section  Style End Here */
+    /* My Mission Section  Style Stat Here */
+    
+    .my_mission h1 {
+        text-align: center;
+        font-size: 70px;
+        font-size: bold;
+        color: #71C89A;
+    }
+    
+    .my_mission span {
+        color: #002F47;
+    }
+    
+    .my_mission_item {
+        flex-basis: 26%;
+        margin: 0 auto;
+        background: #A691D4;
+        padding: 30px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
+    .my_mission_item:nth-child(2) {
+        background: #C0F2CF;
+    }
+    
+    .my_mission_item:nth-child(3) {
+        background: #F7F7CC;
+    }
+    
+    .my_mission_item h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .my_mission_item img {
+        width: 150px;
+    }
+    /* My Mission Section  Style End Here */
+    /* Development Section  Style Start Here */
+    
+    .develop_section {
+        margin-top: 50px;
+        background-image: url('../images/shapes/shape-4.png');
+        background-repeat: no-repeat;
+        background-position-x: left;
+    }
+    
+    .develop_item h1 {
+        font-size: 45px;
+        color: #151428;
+    }
+    
+    .develop_item img {
+        width: 500px;
+    }
+    
+    .develop_item {
+        flex-basis: 45%;
+        margin: 0 auto;
+    }
+    /* .develop_item:nth-child(1) {
+        text-align: right;
+    } */
+    /* Development Section  Style End Here */
+    /* Contact Page  Style Start Here */
+    
+    .contact_form_area {
+        background: #5b6d80;
+        color: #fff;
+        padding: 1rem 0;
+        margin-top: 30px;
+    }
+    
+    .contact-area {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .contact-form {
+        flex-basis: 45%;
+        margin: 0 auto;
+    }
+    
+    .contact-form button {
+        border: none;
+        background: #fff;
+        display: block;
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+    .contact-form button:hover {
+        background: #000;
+        color: #fff;
+    }
+    
+    .contact_form_area h2 {
+        margin-bottom: 3rem;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .contact_form_area form input,
+    .contact_form_area form textarea {
+        display: block;
+        margin: 13px auto;
+        padding: 1rem;
+        width: 100%;
+        border: none;
+        outline: 0;
+    }
+    /* Contact Page  Style End Here */
+    /* Footer Section  Style Start Here */
+    
+    footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    footer h2 {
+        font-size: 40px;
+    }
+    
+    footer span {
+        color: #BA4B3A;
+    }
+    /* Footer Section  Style End Here */
