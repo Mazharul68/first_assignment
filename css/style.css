@@ -14,6 +14,9 @@
         -moz-border-radius: 7px;
         -ms-border-radius: 7px;
         -o-border-radius: 7px;
+        padding-bottom: 15px;
+
+        
     }
     
     .button_btn a:hover {
@@ -148,10 +151,12 @@
     /* Contact Page  Style Start Here */
     
     .contact_form_area {
-        background: #5b6d80;
+        background: #3f5b79;
         color: #fff;
         padding: 1rem 0;
         margin-top: 30px;
+        border-radius: 5px;
+       
     }
     
     .contact-area {
@@ -159,11 +164,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        
     }
     
     .contact-form {
         flex-basis: 45%;
         margin: 0 auto;
+        border-radius: 7px;
+        padding-right: 30px;
+        
     }
     
     .contact-form button {
@@ -217,3 +226,20 @@
         color: #BA4B3A;
     }
     /* Footer Section  Style End Here */
+
+
+
+    .inputs {
+
+        border-radius: 5px;
+    }
+
+    .frames{
+        border-radius: 5px;
+    }
+
+    .section1{
+        margin: auto;
+        width: 96%;
+
+    }
